@@ -1,8 +1,10 @@
 <script lang="ts">
 	import Header from '$lib/header/Header.svelte';
+	import Nav from '$lib/nav/nav.svelte';
 	import '../app.css';
 </script>
 
+<Nav/>
 <Header />
 
 <main>
@@ -10,7 +12,7 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<!-- <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p> -->
 </footer>
 
 <style>
